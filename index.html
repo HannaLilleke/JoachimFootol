@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joachim Footol</title>
+</head>
+<body>
+   
+        <div class="row" style="margin-right: 0; margin-top: 10px;">
+            <div class="col-3" style="padding-left: 20px;">
+                <h1 style="float:right;"><a style="text-decoration: none; color: black;" href="./index.html"> Joachim Footol</a></h1>
+            </div>
+            <div class="col-3 align-self-center" style="border-left: 3px solid black; height: 42px;">
+                <h2>HOME</h2>
+            </div>
+            <div class="col-2">
+
+            </div>
+            <div class="col-3 align-self-center">
+                <nav class="myNav">
+                    <a href="./pages/works.html">WORKS</a>
+                    <a href="./pages/information.html">INFORMATION</a>
+                </nav>
+            </div>
+        </div>
+    
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-6">
+                <div id="paragraph-container" class="paragraph-container">
+                    <p class="paragraph1">
+                        In the 16 mm film Exposure, an object reminiscent of a modern sculpture is depicted through a camera that revolves constantly around the object inside an industrial building. While the shots gradually move closer to the object, the film turns slowly from figurative to abstract and makes apparent the synchronized movement and interdependence of the rotating camera and the light source that is illuminating the object. The depicted object is a reconstruction of a 17th century sundial.
+                    </p>
+                    <p style="position: absolute; right: 0; bottom: 15px; padding-right: 12px; font-style: italic; font-size: 14px; font-weight: 500;">
+                        Exposure
+                    </p>
+                    <p style="position: absolute; right: 0; bottom: 0; padding-right: 12px; font-style: italic; font-size: 14px; font-weight: 500;">
+                        2016
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-6">
+                <img class="home-img" src="./img/abstract-architecture-black-and-white-boardwalk-262367.jpg" alt=""  onmouseover="showParagraph1()" onmouseout="hideParagraph1()" onclick="openModal()">    
+            </div>
+            
+        </div>
+    </div>
+    <div id="my-modal" class="modal">
+        <div class="modal-content">
+            <img class="landscape-image" src="./img/abstract-architecture-black-and-white-boardwalk-262367.jpg" alt="">
+        </div>
+        <span class="close" onclick="closeModal()">CLOSE</span>
+
+    </div>
+<script src="./main.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
